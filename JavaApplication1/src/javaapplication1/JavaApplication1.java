@@ -5,6 +5,7 @@
  */
 package javaapplication1;
 
+
 /**
  *
  * @author lape
@@ -14,29 +15,41 @@ public class JavaApplication1 {
         /**
      * @param args the command line arguments
      */
+    
+    
+    
     public static void main(String[] args) {
         // TODO code application logic here
         
         int x=3;
+       
+       
+      Dog mydog;
+        mydog = new Dog();
         
-        if (x==2)  {
+        mydog.name="Гаврюша";
+        
+        mydog.size=10;
+        
+        mydog.bark();
+        
+        
+   /*     if (x==2)  {
           System. out. println ("Hello World");  
         }
  while (x<10) {
   System. out. println (x+" Hello");
   x=x+1;
  }
-         
-         
-         
-       
-       
-       System. out. println ("2 World");
-       System. out. println ("3 World");
-       
-       
-        System. out. println ("4 World");
-              
+
+      System. out. println ("2 World");
+      System. out. println ("3 World");
+      System. out. println ("4 World");
+                  System. out. println ("4 World");
+      
+  */            
+    
+    
     }
     
 }
